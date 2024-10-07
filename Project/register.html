@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/registerstyle.css">
+</head>
+
+<body>
+    <div class="register-container">
+        <div class="user-icon"></div>
+        <h3>Register Here</h3>
+        <br>
+        <form id="registerForm" novalidate>
+            <div class="form">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Enter username" required>
+                <span class="error-message" id="username-error"></span>
+            </div>
+            <div class="form">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="example@gmail.com" required>
+                <span class="error-message" id="email-error"></span>
+            </div>
+            <div class="form">
+                <label for="password">Password</label>
+                <input type="password" id="pass" placeholder="••••••" required>
+                <span class="error-message" id="pass-error"></span>
+            </div>
+            <div class="form">
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confpass" placeholder="••••••" required>
+                <span class="error-message" id="confpass-error"></span>
+            </div>
+            <p class="terms-text">
+                By signing up, I accept <a href="#" class="link">Terms of Service</a> and acknowledge the <a href="#"
+                    class="link">Privacy Policy</a>.
+            </p>
+            <button type="submit" class="signup-button">SIGN UP</button>
+        </form>
+        <p class="login-text">
+            Already have an account? <a href="login.html" class="login-link">Login</a>
+        </p>
+    </div>
+
+    <script src="./javascript/regisscript.js"></script>
+</body>
+
+</html>
