@@ -1,0 +1,152 @@
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+.screen-reader-text:hover,
+.screen-reader-text:active,
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px #0c0c0c;
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul,
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.logo a {
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-links {
+    display: flex;
+    margin-left: auto;
+}
+
+.navbar-links a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar-links a:hover {
+    background-color: #ffd400;
+    color: black;
+    border-radius: 20px;
+    padding: 5px 15px;
+    margin: 9px 5px;
+}
+
+.navbar-links a.active {
+    background-color: #ffd400;
+    color: #333;
+    border-radius: 20px;
+    padding: 5px 15px;
+    margin: 9px 5px;
+}
+
+.icon a {
+    color: #ffffff;
+    padding: 5px 15px;
+    margin: 9px 5px;
+}
+
+@media only screen and (min-width: 56em) {
+
+    .content-wrap {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 30px 30px 0px 30px;
+    }
+
+
+    .nav-section {
+        display: flex;
+        background: hsl(0, 0%, 15%);
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+
+    .logo a {
+        font-size: 1.7em;
+        padding-left: 20px;
+        padding-top: 7px;
+        margin-bottom: 4px;
+    }
+}
+
+

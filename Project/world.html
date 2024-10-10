@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>World|News</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/world.css">
+</head>
+
+<body>
+    <div class="content-wrap">
+        <header role="banner">
+
+            <section class="nav-section">
+
+                <div class="logo">
+                    <a href="home.html" title="News Logo">NEWS</a>
+                </div>
+
+                <nav class="navbar">
+                    <div class="navbar-links">
+                        <a href="home.html" class="active">Home</a>
+                        <a href="popular.html">Popular</a>
+                        <a href="world.html">World</a>
+                        <a href="sport.html">Sports</a>
+                        <a href="business.html">Business</a>
+                        <a href="entertainment.html">Entertainment</a>
+                    </div>
+                    <div class="icon">
+                        <a href="#" id="menu">
+                            <span class="material-icons">menu</span>
+                        </a>
+                        <a href="#" id="search">
+                            <span class="material-icons">search</span>
+                        </a>
+                    </div>
+                </nav>
+            </section>
+
+        </header>
+
+        <div class="body">
+            <div class="audio-theme-track-container">
+                <audio id="audio-theme-track" controls loop>
+                    <source src="./image/news_audio.mp3" type="audio/mpeg" />
+                </audio>
+            </div>
+            <div class="audio-theme-button-container">
+                <div class="website-logo">
+                    <a href="home.html">NEWS</a>
+                </div>
+                <button class="audio-theme-button" onclick="toggleAudio()">
+                    Play The sound
+                </button>
+            </div>
+            <div class="intro-video-container">
+                <video id="intro-video" muted loop>
+                    <source src="./image/news_video.mp4" type="video/mp4" />
+                </video>
+            </div>
+
+            <section class="main">
+                <div class="Home-entry">
+                    <h2>Breaking <span>News</span></h2>
+                    <p>
+                        Footage shows IDF parading scores of Palestinian men around in
+                        underwear
+                    </p>
+                    <a href="#go-to-news">See more</a>
+                </div>
+            </section>
+
+            <section class="world-popular">
+                <h2>World Popular</h2>
+                <div class="container">
+                    <div class="card">
+                        <img src="./image/city3.jpg" alt="Netanyahu and Biden" />
+                        <div class="card-content">
+                            <h1>Beautify City in the World</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates laboriosam
+                                laudantium aliquid sint nisi! Voluptatibus soluta libero vero maxime, distinctio
+                                veritatis sed illum, tempore animi labore impedit, quibusdam consequatur atque.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="card">
+                        <img src="./image/city2.jpg" alt="Netanyahu and Biden" />
+                        <div class="card-content">
+                            <h1>Beautify City in the World</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates laboriosam
+                                laudantium aliquid sint nisi! Voluptatibus soluta libero vero maxime, distinctio
+                                veritatis sed illum, tempore animi labore impedit, quibusdam consequatur atque.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="latest">
+                <h2>Lastest</h2>
+                <div class="story">
+                    <a href="#">
+                        <div class="story-img">
+                            <img src="image/business1.jpg" alt="Office">
+                        </div>
+                        <div class="story-headline">
+                            <h3>Curabitur fringilla urna nec quam imperdiet semper</h3>
+                            <p class="exact-time">13:53h</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="story">
+                    <a href="#">
+                        <div class="story-img">
+                            <img src="image/business2.jpg" alt="Computer screen">
+                        </div>
+                        <div class="story-headline">
+                            <h3>Phasellus vitae tristique felis, in ornare nulla</h3>
+                            <p class="exact-time">13:53h</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="story">
+                    <a href="#">
+                        <div class="story-img">
+                            <img src="image/business3.jpg" alt="Screen with graphic statistics">
+                        </div>
+                        <div class="story-headline">
+                            <h3>Pellentesque nec viverra felis Praesent quis magna sed</h3>
+                            <p class="exact-time">13:53h</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="story">
+                    <a href="#">
+                        <div class="story-img">
+                            <img src="image/business4.jpg" alt="Container terminal">
+                        </div>
+                        <div class="story-headline">
+                            <h3>Aliquam a lectus laoreet massa viverra porttitor eu ac hulla</h3>
+                            <p class="exact-time">13:53h</p>
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+            <div class="info">
+                <div class="main-info">
+                    <h2 class="post">Resent Posts</h2>
+                    <a href="sport.html" target="_blank">
+                        <div class="p" style="height: 243px">
+                            <img src="image/sport5.jpg" alt="Container terminal">
+                            <div class="post-content">
+                                <h3>What is sport ?</h3>
+                                <p>
+                                    Sport is any physical activity or game that typically involves skill, competition,
+                                    and often a set of rules.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="business.html" target="_blank">
+                        <div class="p" style="height: 205px">
+                            <img src="image/business5.jpg" alt="Container terminal">
+                            <div class="post-content">
+                                <h3>What is business ?</h3>
+                                <p>
+                                    Business refers to the activity of producing, buying, selling, or exchanging goods
+                                    or services with the goal of making a profit.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="entertainment.html" target="_blank">
+                        <div class="p" style="height: 205px">
+                            <img src="image/entertain5.jpg" alt="Container terminal">
+                            <div class="post-content">
+                                <h3>What is Entertainment ?</h3>
+                                <p>
+                                    Entertainment refers to activities, performances, or productions that are designed
+                                    to amuse, engage, or provide enjoyment to an audience.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="sidebar">
+                    <div class="section search">
+                        <h2 class="title">Search</h2>
+                        <form action="#" method="post">
+                            <input type="text" name="search-term" class="text-input" placeholder="search..." />
+                        </form>
+                    </div>
+                    <div class="section topics">
+                        <h2 class="section-title">Topics</h2>
+                        <ul>
+                            <li><a href="#">Motivation</a></li>
+                            <li><a href="#">Life Lessons</a></li>
+                            <li><a href="" >Science</a></li>
+                            <li><a href="" >Travel</a></li>
+                            <li><a href="" >Style</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+<script src="./javascript/worldscript.js"></script>
+
+</html>
